@@ -1,0 +1,114 @@
+
+/* &display=swap */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* //////////////////////////////////////// */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+	
+}
+/* //////////////////////////////////////// */
+
+body{
+	font-family:"Lato";
+	font-size: 16px;
+	line-height: 160%;
+	background: #aee6af;
+		background: -webkit-linear-gradient(0deg, #aee6af 0%, #2cfae2 100%);
+		background: linear-gradient(0deg, #aee6af 0%, #2cfae2 100%);
+}
+.main {}
+
+.lesson {
+	padding: 50px;
+}
+
+.lesson__exercise {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.exercise {}
+
+.exercise__first {}
+
+.exercise__first p{
+	line-height: 160%;
+	font-size: 24px;
+	margin: 0px 0px 70px 0px;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.421);
+}
+
+
+.dialog {
+	max-width: 600px;
+}
+
+.dialog li{
+	line-height: 150%;
+	margin: 0px 0px 20px 0px;
+	font-size: 20px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+.dialog ul li:hover{
+	border: 1px solid transparent;
+		border-radius: 10px;
+	-webkit-box-shadow: 1px 2.5px 3px 2.5px #1818193d;
+	-moz-box-shadow: 1px 2.5px 2px 2.5px #1718183d;
+	box-shadow: 1px 1.5px 3px 3.5px #1616173b, inset 1px 4.5px 9.5px 9px rgba(17, 18, 16, 0.24);
+		
+
+}
+.man {
+	background-color: rgba(28, 125, 185, 0.425);
+	box-shadow: 1px 5px 19px rgba(223, 230, 235, 0.931);
+
+}
+.man::before{
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background:url(../img/avatar/man.jpg)0 0 / 100% no-repeat ;
+	margin: 0px 20px 0px -30px;
+
+}
+
+.girl::before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: url(../img/avatar/girl.jpg)0 0 / 100% no-repeat;
+	margin: 0px 20px 0px -30px;
+
+}
+
+
+.girl {
+	background-color: rgba(173, 12, 76, 0.548);
+	box-shadow: 1px 5px 19px rgb(248, 244, 245);
+	
+}
+
+
+
+
+
+
+.tru {
+	color: rgb(16, 115, 16);
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.false {
+	color: rgb(115, 16, 16);
+	text-shadow: 1px 1px 1px rgb(94, 55, 55);
+}
+
